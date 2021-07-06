@@ -1,0 +1,20 @@
+handler:
+  slack:
+    token: ""
+    channel: ""
+resource:
+  deployment: false
+  replicationcontroller: false
+  replicaset: false
+  daemonset: false
+  services: false
+  pod: true
+  job: false
+  node: false
+  clusterrole: false
+  serviceaccount: false
+  persistentvolume: false
+  namespace: false
+  secret: false
+  configmap: false
+  ingress: false
