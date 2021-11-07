@@ -14,7 +14,7 @@ resource:
   clusterrole: false
   serviceaccount: false
   persistentvolume: false
-  namespace: false
+  namespace: true
   secret: false
   configmap: false
   ingress: false
